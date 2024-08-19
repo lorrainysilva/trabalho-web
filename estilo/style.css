@@ -6,9 +6,12 @@
     --cor3:#8C0444;
 
 }
+
+/*reset CSS: remove margens, preenchimentos. Define o modelo de caixa para todos os elementos*/
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -16,6 +19,7 @@ body{
     background-color: var(--cor2);
 }
 
+/*estilo do cabeçalho, onde estão os links(sobre mim, portfólio, formação, contato*/
 header{
     background-image: linear-gradient(to left, var(--cor0), var(--cor1));
     padding-top:40px;
@@ -32,6 +36,7 @@ header a:hover{
     border-radius: 5px;
 }
 
+/*estilo do conteúdo principal*/
 main{
     min-width: 320px;
     max-width: 800px;
@@ -71,6 +76,7 @@ main button:hover{
    font-weight: bold;
 }
 
+/*estilo do rodapé*/
 footer{
     background-color: var(--cor0);
     position: absolute;
